@@ -115,7 +115,6 @@ main{
 
 .sezione2{
     background-color: gray;
-
 }
 
 .second{
@@ -140,6 +139,39 @@ main{
     background-color: pink;
     height: 80%;
     width: 70% ;
+    border-style: dashed;
+
+}
+
+/* stylin third row*/ 
+
+.sezione3{
+    background-color: white;
+
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+
+}
+
+#square5{
+    background-color: blue;
+    height: 80%;
+    width: 70% ;
+    border-style: dashed;
+  
+}
+
+#square6{
+    background-color: pink;
+    height: 80%;
+    width: 30% ;
     border-style: dashed;
 
 }
