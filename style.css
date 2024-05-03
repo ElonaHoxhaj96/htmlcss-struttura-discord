@@ -1,5 +1,4 @@
 body{
-  
     margin: 0;
     border: 0;
     padding: 0;
@@ -8,7 +7,7 @@ body{
 /* impostazioni del header*/
 header{
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -18,8 +17,8 @@ nav{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center ;
-    width: calc(100%/3);
-    margin: 1% auto;
+    width: 70%;
+    margin: 2% auto;
     height: 10%;
     background-color: rgb(251, 251, 81);
     border-style: dashed;
@@ -38,7 +37,7 @@ a{
     align-content: center;
 }
 
-nav>ul{
+.voci-menu{
     padding: 0%;
     display: inline-flex;
     list-style-type: none;
@@ -80,12 +79,9 @@ main{
     height: auto;
 
 }
-.row{
-    height: 350px;
-}
 
 /* stylin first row*/ 
-.first{
+.row{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,22 +89,30 @@ main{
     margin: auto;
     width: 70%;
 
+    /*DEBUG*/
+    height: 350px;
 }
 
-#square1{
+.square-blu{
+    /*DEBUG*/
     background-color: blue;
     height: 80%;
-    width: 70% ;
     border-style: dashed;
-  
 }
 
-#square2{
-    background-color: pink;
+.square-pink{
+    /*DEBUG*/
+    background-color:pink;
     height: 80%;
-    width: 30% ;
     border-style: dashed;
+}
 
+.one{
+    width: 70% ; 
+}
+
+.tow{
+    width: 30% ;
 }
 
 /* stylin secound row*/ 
@@ -117,91 +121,49 @@ main{
     background-color: gray;
 }
 
-.second{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 70%;
-
-}
-
-#square3{
-    background-color: blue;
-    height: 80%;
+.tre{
     width: 30% ;
-    border-style: dashed;
-  
 }
 
-#square4{
-    background-color: pink;
-    height: 80%;
+.four{
     width: 70% ;
-    border-style: dashed;
-
 }
 
 /* stylin third row*/ 
-
 .sezione3{
     background-color: white;
 
 }
 
-.third{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 70%;
-
-}
-
-#square5{
-    background-color: blue;
-    height: 80%;
+.cinque{
     width: 70% ;
-    border-style: dashed;
-  
 }
 
-#square6{
-    background-color: pink;
-    height: 80%;
+.sei{
     width: 30% ;
-    border-style: dashed;
 }
-
 
 /* stylin fourth row*/ 
 
 .sezione4{
     background-color: gray;
-    height: 350px;
+    height: 550px;
 
 }
-
-.fourth-row{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-#square7{
-    background-color: blue;
+ .row-4{
     margin: auto;
-    padding: 1%;
-    height: 200px;
-    width: 400px;
-    border-style: dashed;
+    height: 80%;
+    width: 70% ;
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
+    flex-direction: column;
+    justify-content: flex-end
+ }
 
+.sette{
+    background-color: blue;
+    border-style: dashed;
+  
+}
 
 
 /* Pie pagina*/ 
@@ -216,41 +178,28 @@ footer{
     display:flex ;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     margin: auto;
-    width: calc(100% / 5);
+    width: 70%;
     height: 400px
 
 }
 
-.column-1{
+.column1{
     background-color: brown;
     border-style: dashed;
-    height:85% ;
-
-   
+    width: 20%;
+    height: 80%;
 }
 
+.column2{
+    width: 80%;
+    border-style: dashed;
+}
 
-.column-2{
+.verde{
     background-color: green;
-    border-style: dashed;
-    height:85% ;
+    height: 80%;
+    width: calc(100%/3);
 }
 
-.column-3{
-    background-color:green    ;
-    border-style: dashed;
-    height:85% ;
-}
-
-.column-4{
-    background-color: green;
-    border-style: dashed;
-    height:85% ;
-}
-
-.column-5{
-    background-color:green;
-    border-style: dashed;
-    height:85% ;
-}
